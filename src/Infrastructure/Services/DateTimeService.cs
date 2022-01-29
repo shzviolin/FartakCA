@@ -1,0 +1,8 @@
+﻿using FartakCA.Application.Common.Interfaces;
+
+namespace FartakCA.Infrastructure.Services;
+
+public class DateTimeService : IDateTime
+{
+    public DateTime Now => DateTime.Now;
+}
